@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Lobster|Sacramento|Open+Sans|Quicksand|Raleway|Lobster+Two');
 
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Lobster|Sacramento|Open+Sans|Quicksand|Raleway|Lobster+Two');
 h1 {
   font-family: 'Julius Sans One', sans-serif;
   /*font-family: 'Open Sans', sans-serif;*/
@@ -8,12 +8,20 @@ h1 {
 }
 
 * {
-
   /*font-family: 'Lobster', cursive;*/
   /*font-family: 'Julius Sans One', sans-serif;*/
   /*font-family: 'Sacramento', cursive;*/
   font-family: 'Quicksand', sans-serif;
   /*font-family: 'Open Sans', sans-serif;*/
+}
+
+.container-fluid {
+  background-image: url("http://mutuamatheka.co.ke/wp-content/uploads/2012/04/001_NAIROBI_WEBREADY_MUTUA-MATHEKA-11.jpg");
+  opacity: 0.7
+}
+
+.nav-link {
+    padding: 0;
 }
 
 
@@ -32,6 +40,7 @@ h1 {
     opacity: 0;
   }
 }
+
 @keyframes sdb {
   0% {
     opacity: 0;
@@ -47,41 +56,46 @@ h1 {
     opacity: 0;
   }
 }
+
 body {
-  	font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', cursive;
 }
-h1.major,
-h2.major,
-h3.major,
-h4.major,
-h5.major,
-h6.major {
+
+h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
   padding-bottom: 1em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
   margin-bottom: 20px;
 }
+
 a {
   color: #33A9B7;
 }
-#typer-size{
-	font-size: 40px;
+
+#typer-size {
+  font-size: 40px;
 }
-a:hover,
-a:focus {
+
+a:hover, a:focus {
   color: #00E4FF;
   text-decoration: none;
 }
+
 header {
+  margin:0;
   display: table;
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: #fa3380;
+  background: rgb(200, 54, 54);
+  /* The Fallback */
+  background: rgba(200, 54, 54, 0.5);
   background: -webkit-gradient(radial, center center, 0, center center, 500, from(#433763), to(#292D48));
   background: -moz-radial-gradient(circle, #433763, #292D48);
   background: -ms-radial-gradient(circle, #433763, #292D48);
   color: white;
+  font-weight: bolder;
 }
+
 header #particles {
   position: absolute;
   width: 100%;
@@ -89,18 +103,21 @@ header #particles {
   top: 0;
   left: 0;
 }
+
 header .vert-text {
   display: table-cell;
   position: relative;
   vertical-align: middle;
   text-align: center;
 }
+
 header .vert-text h1 {
   padding: 0;
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
 }
+
 header .vert-text .scroll-down {
   display: block;
   position: absolute;
@@ -113,9 +130,11 @@ header .vert-text .scroll-down {
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
+
 header .vert-text .scroll-down:hover {
   opacity: 0.5;
 }
+
 header .vert-text .scroll-down::after {
   position: absolute;
   content: '';
@@ -128,6 +147,7 @@ header .vert-text .scroll-down::after {
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
+
 header .vert-text .scroll-down::before {
   position: absolute;
   top: -22px;
@@ -144,108 +164,113 @@ header .vert-text .scroll-down::before {
   box-sizing: border-box;
 }
 
-
-
 #contacts {
-	margin: 0 auto;
+  margin: 0 auto;
   padding: 100px 0;
-	background: #224;
-	width: 100%;
+  background: #224;
+  width: 100%;
   color: #fff;
-	transition: all 1.7s ease;
+  transition: all 1.7s ease;
 }
-#contacts:hover{
-	background: #fa3380;
-	color: #fff;
+
+#contacts:hover {
+  background: #fa3380;
+  color: #fff;
 }
+
 #contacts .social {
   padding-bottom: 20px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
 
-
-
-form{
-	margin-top: 70px;
-	width: 100%;
+form {
+  margin-top: 70px;
+  width: 100%;
 }
 
-input[type=text]{
-	margin-top: 20px;
-	width: 390px;
-	height: 55px;
-	border-radius: 100px;
-	padding: 10px;
-	outline: none;
-	background: rgba(0,0,0,0.2);
-	border: 1px solid #fff;
-	transition: all 0.3s ease;
+input[type=text] {
+  margin-top: 20px;
+  width: 390px;
+  height: 55px;
+  border-radius: 100px;
+  padding: 10px;
+  outline: none;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  transition: all 0.3s ease;
 }
-input[type=text]:focus{
-	background: rgba(102,51,153, 0.3);
-	color: #fff;
-	border: 1px solid violet;
+
+input[type=text]:focus {
+  background: rgba(102, 51, 153, 0.3);
+  color: #fff;
+  border: 1px solid violet;
 }
-::placeholder{
-	color: #fff;
+
+::placeholder {
+  color: #fff;
 }
-.zayn{
-	margin-top: -70px;
+
+.zayn {
+  margin-top: -70px;
 }
+
 hr.style17 {
-	border-top: 1px solid pink;
-	text-align: center;
-	width: 250px;
-	margin-top: 40px;
+  border-top: 1px solid pink;
+  text-align: center;
+  width: 250px;
+  margin-top: 40px;
 }
-hr.style17:after{
-	border-top: 1px solid pink;
-	border-right: 1px solid pink;
-	border-bottom: 1px solid pink;
-	border-left: 1px solid pink;
-}
+
 hr.style17:after {
-	content: '§';
-	display: inline-block;
-	position: relative;
-	top: -10px;
-	padding: 0 10px;
-	background: #fa3380;
-	color: #fff;
-	font-size: 18px;
-	-webkit-transform: rotate(60deg);
-	-moz-transform: rotate(60deg);
-	transform: rotate(60deg);
+  border-top: 1px solid pink;
+  border-right: 1px solid pink;
+  border-bottom: 1px solid pink;
+  border-left: 1px solid pink;
 }
 
-
-button{
-	border-radius: 100px;
-	color: #fff;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	padding: 10px;
-	height: 45px;
-	width: 200px;
-	text-align: center;
-	outline: none;
-	background: #fa3380;
-	border: 1px solid #eee;
-	box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
-	transition: all 0.3s ease;
-}
-button:hover{
-background: purple;
+hr.style17:after {
+  content: '§';
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  padding: 0 10px;
+  background: #fa3380;
+  color: #fff;
+  font-size: 18px;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  transform: rotate(60deg);
 }
 
-.p-img{
-	text-align: center;
-	position: relative;
-	top: -70px;
+button {
+  border-radius: 100px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  height: 45px;
+  width: 200px;
+  text-align: center;
+  outline: none;
+  background: #fa3380;
+  border: 1px solid #eee;
+  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  transition: all 0.3s ease;
 }
-img{
-	z-index: 100;
-	border-radius: 50%;
-	width: 170px;
-	height:170px;
+
+button:hover {
+  background: purple;
+}
+
+.p-img {
+  text-align: center;
+  position: relative;
+  top: -70px;
+}
+
+img {
+  z-index: 100;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
 }

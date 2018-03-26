@@ -27,6 +27,8 @@ $(document).ready(function() {
     }
 
   });
+
+
 });
 
 
@@ -38,6 +40,9 @@ $(document).ready(function() {
 	// WAIT FOR ALL TO BE LOADED
 	window.onload = function() {
 
+
+
+
 		// add loaded class to html
 		var root = document.documentElement;
 		root.className += ' loaded';
@@ -46,12 +51,16 @@ $(document).ready(function() {
 		Typed.new('#typed', {
             stringsElement: document.getElementById('typed-strings'),
 			loop: true,
-			typeSpeed: 7,
+			typeSpeed: 5,
 			backSpeed: 2,
-			startDelay: 1000,
-			backDelay: 1200
+			startDelay: 10,
+			backDelay: 1600
         });
+
+
+
 	}; // all loaded
+
 
 
 }());

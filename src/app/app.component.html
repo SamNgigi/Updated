@@ -1,55 +1,56 @@
-<div class="container text-center mt-2">
-  <h2>Working!</h2>
-  <div class="btn btn-outline-primary" onclick="testFunction()">Test</div>
-</div>
 
-
-<header id="header">
-  <div class="vert-text">
-    <div id="particles"></div>
-    <div class="p-img">
-      <h1>< STN ></h1>
+<div class="container-fluid">
+  <header id="header">
+    <div class="vert-text">
+      <div class="p-img">
+        <h1 class="animated fadeInDown" style="font-size:100px">< STN ></h1>
+      </div>
+        <h1 class="animated fadeInDown">______________</h1>
+      <h1 class="animated fadeInDown" id="typer-size">
+                  <!-- TEXTS -->
+                  <span id="typed"></span>
+                  <div id="typed-strings">
+                  	<p class="typed"><span></span> </p>
+                      <p class="typed">I'm Sam Ngigi.</p>
+                      <p class="typed"><span class="#">Welcome to my porfolio!</span></p>
+                      <p class="typed">I love coding</p>
+  									  <p class="typed">ANGULAR</p>
+  									  <p class="typed">PYTHON</p>
+                      <p class="typed">JAVASCRIPT</p>
+  									  <p class="typed">CSS</p>
+  									  <p class="typed">DJANGO</p>
+  									  <p class="typed">FLASK</p>
+  										<p class="typed">Typer</p>
+  										<p class="typed">REACT</p>
+  										<p class="typed">JAVA</p>
+  										<p class="typed">Name It!</p>
+  										<p class="typed">We'll learn and build.</p>
+                  </div>
+                  <!-- TEXTS ENDS -->
+              </h1>
+      <!-- TITLE -->
+        <h1 class="animated fadeInUp">______________</h1>
+      <h3 class="animated fadeInUp">FULLSTACK DEV | SAM NGIGI </h3>
+      <a href="#contacts" class="scroll-down nav-link"></a>
     </div>
-    <h1 id="typer-size">
-                <!-- TEXTS -->
-                <span id="typed"></span>
-                <div id="typed-strings">
-                	<p><span></span> </p>
-                    <p>I'm Sam Ngigi</p>
-                    <p><span class="#">Let's Code</span></p>
-                    <p>I like web development</p>
-                    <p>I love coding</p>
-									  <p>Angular</p>
-									  <p>PYTHON</p>
-                    <p>JAVASCRIPT</p>
-									  <p>CSS</p>
-									  <p>Simple Landing Page</p>
-									  <p>Django</p>
-										<p>Most Powerful Typer</p>
-										<p>Codepen</p>
-                </div>
-                <!-- TEXTS ENDS -->
-            </h1>
-    <!-- TITLE -->
-
-    <h3>FULLSTACK DEV | SAM NGIGI </h3>
-    <a href="#contacts" class="scroll-down nav-link"></a>
-  </div>
-</header>
-<!-- FOOTER  -->
-<footer id="contacts">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 text-center">
-        <hr class="style17">
-        <!-- 		FORMS		 -->
-        <form>
-          <input type="text" placeholder="Enter First Name" /><br>
-          <input type="text" placeholder="Enter Last Name" /><br>
-          <input type="text" placeholder="Enter Your Email" /><br>
-          <button>Subscribe</button>
-        </form>
+  </header>
+  <!-- FOOTER  -->
+  <footer id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <hr class="style17">
+          <!-- 		FORMS		 -->
+          <form>
+            <input type="text" placeholder="Enter First Name" /><br>
+            <input type="text" placeholder="Enter Last Name" /><br>
+            <input type="text" placeholder="Enter Your Email" /><br>
+            <button>Subscribe</button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
+</div>
+
+<app-portfolio></app-portfolio>
