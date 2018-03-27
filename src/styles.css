@@ -19,6 +19,14 @@ h1 {
   background-image: url("http://mutuamatheka.co.ke/wp-content/uploads/2012/04/001_NAIROBI_WEBREADY_MUTUA-MATHEKA-11.jpg");
   opacity: 0.7
 }
+.vl {
+    border-left: 2px solid pink;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 125%;
+}
 
 .nav-link {
     padding: 0;
