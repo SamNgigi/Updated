@@ -174,8 +174,8 @@ header .vert-text .scroll-down::before {
 }
 
 #contacts:hover {
-  background: #fa3380;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 #contacts .social {
@@ -234,7 +234,7 @@ hr.style17:after {
   position: relative;
   top: -10px;
   padding: 0 10px;
-  background: #fa3380;
+  background: rgba(200, 54, 54);
   color: #fff;
   font-size: 18px;
   -webkit-transform: rotate(60deg);
@@ -252,7 +252,7 @@ button {
   width: 200px;
   text-align: center;
   outline: none;
-  background: #fa3380;
+  background: rgba(200, 54, 54);
   border: 1px solid #eee;
   box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
   transition: all 0.3s ease;
@@ -273,4 +273,24 @@ img {
   border-radius: 50%;
   width: 170px;
   height: 170px;
+}
+
+
+#projects {
+  margin: 0 auto;
+  padding: 100px 0;
+  background: #224;
+  width: 100%;
+  color: #fff;
+  transition: all 1.7s ease;
+}
+
+#projects:hover {
+  background: #fff;
+  color: #000;
+}
+
+#projects .social {
+  padding-bottom: 20px;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
