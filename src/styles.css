@@ -276,7 +276,7 @@ button:hover {
   top: -70px;
 }
 
-img {
+.img-fluid-skills {
   z-index: 100;
   border-radius: 50%;
   width: 170px;
@@ -284,7 +284,7 @@ img {
 }
 
 
-#projects {
+#skills {
   margin: 0 auto;
   padding: 100px 0;
   background: #224;
@@ -293,12 +293,12 @@ img {
   transition: all 1.7s ease;
 }
 
-#projects:hover {
+#skills:hover {
   background: #fff;
   color: #000;
 }
 
-#projects .social {
+#skills .social {
   padding-bottom: 20px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
