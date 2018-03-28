@@ -3,6 +3,12 @@
 //   alert('Hi!!')
 // }
 
+$(window).on('load', function() {
+   // alert('fiti')
+   $("#loader-wrapper").fadeOut(200);
+   $("#loader").fadeOut(200);
+})
+
 var scrollToElement = function(el, ms){
     var speed = (ms) ? ms : 600;
     $('html,body').animate({
