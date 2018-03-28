@@ -78,6 +78,7 @@
   top: 0;
   width: 51;
   height: 100%;
-  background: #222;
+  background: rgb(51, 51, 77);
+  background: rgb(51, 51, 77);
   z-index: 1000;
 }
