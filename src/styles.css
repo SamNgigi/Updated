@@ -302,3 +302,11 @@ button:hover {
   padding-bottom: 20px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
+
+
+/* Media query to set image sizes */
+@media screen and (max-width: 790px) {
+  .vl {
+    display: none;
+  }
+}
