@@ -182,7 +182,7 @@ header .vert-text .scroll-down::before {
 }
 
 #contacts:hover {
-  background: #fff;
+  background: #e49b9b;
   color: #000;
 }
 
@@ -292,9 +292,8 @@ button:hover {
   color: #fff;
   transition: all 1.7s ease;
 }
-
 #skills:hover {
-  background: #fff;
+  background: #e49b9b;
   color: #000;
 }
 
